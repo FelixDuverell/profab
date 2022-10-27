@@ -1,0 +1,49 @@
+@import url(navbar.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "K2D", sans-serif;
+  background-image: url(/images/security2.png);
+  background-size: cover;
+  list-style-type: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-left {
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color: #a6a6a6;
+}
+
+.big-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-right {
+  width: 900px;
+  height: 550px;
+  margin: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #a6a6a6;
+}

@@ -1,0 +1,79 @@
+@import url(navbar.css);
+
+.form-area {
+    font-family: 'K2D', sans-serif;
+    position: absolute;
+    background-image: linear-gradient(#5585b5,#bbe4e9, #79c2d0);
+    background-color: #e7e7e7;
+    box-shadow: 5px 5px 3px 3px #dddddd;
+    top: 60%;
+    right: 40%;
+    transform: translate(50%,-50%);
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form-area input, select {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-area input[type=text]{
+    font-family: 'K2D', sans-serif;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    display: 16px;
+}
+
+.form-area input[type=email]{
+    font-family: 'K2D', sans-serif;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    display: 16px;
+}
+
+label {
+    color: #000;
+}
+
+::placeholder{
+    color: #000000;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 40px;
+    width: 150px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #d4d4d4;
+}
+
+.btn:hover {
+    background-color: #00d5ffa0;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-form {
+    background-color: #eaeaea;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
