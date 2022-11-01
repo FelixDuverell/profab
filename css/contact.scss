@@ -1,14 +1,27 @@
-@import url(navbar.css);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'K2D', sans-serif;
+    background-image: url(/images/security2.png);
+    background-size: cover;
+    list-style-type: none;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
 
 .form-area {
     font-family: 'K2D', sans-serif;
-    position: absolute;
     background-image: linear-gradient(#5585b5,#bbe4e9, #79c2d0);
     background-color: #e7e7e7;
     box-shadow: 5px 5px 3px 3px #dddddd;
-    top: 60%;
-    right: 40%;
-    transform: translate(50%,-50%);
     width: 400px;
     height: 500px;
     box-sizing: border-box;
@@ -58,15 +71,18 @@ label {
     margin-top: 40px;
     width: 150px;
     height: 60px;
-    border: 1px solid;
     border-radius: 5px;
+    border: none;
     background-color: #d4d4d4;
 }
 
 .btn:hover {
-    background-color: #00d5ffa0;
-    border: 1px solid;
-    border-radius: 5px;
+    background: #03e9f4;
+    color: #000;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                 0 0 200px #03e9f4,;
     cursor: pointer;
 }
 
